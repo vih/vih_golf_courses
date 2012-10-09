@@ -1,0 +1,111 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  vih_golf_courses.features.field.inc: n/a
+#  vih_golf_courses.features.inc: n/a
+#  vih_golf_courses.views_default.inc: n/a
+#  vih_golf_courses.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-10-09 13:35+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: vih_golf_courses.features.field.inc:434
+msgid "Billede"
+msgstr ""
+
+#: vih_golf_courses.features.field.inc:435
+msgid "Body"
+msgstr ""
+
+#: vih_golf_courses.features.field.inc:436
+msgid "Hjemmeside"
+msgstr ""
+
+#: vih_golf_courses.features.field.inc:437
+msgid "Logo"
+msgstr ""
+
+#: vih_golf_courses.features.field.inc:438
+msgid "Video"
+msgstr ""
+
+#: vih_golf_courses.features.inc:30 vih_golf_courses.views_default.inc:154
+msgid "Golfbaner"
+msgstr ""
+
+#: vih_golf_courses.features.inc:32
+msgid "Bruges til at beskrive golfbanerne til de korte kurser."
+msgstr ""
+
+#: vih_golf_courses.features.inc:34
+msgid "Titel"
+msgstr ""
+
+#: vih_golf_courses.views_default.inc:145
+msgid "Master"
+msgstr ""
+
+#: vih_golf_courses.views_default.inc:146
+msgid "mere"
+msgstr ""
+
+#: vih_golf_courses.views_default.inc:147
+msgid "Udfør"
+msgstr ""
+
+#: vih_golf_courses.views_default.inc:148
+msgid "Gendan"
+msgstr ""
+
+#: vih_golf_courses.views_default.inc:149
+msgid "Sortér efter"
+msgstr ""
+
+#: vih_golf_courses.views_default.inc:150
+msgid "Stigende"
+msgstr ""
+
+#: vih_golf_courses.views_default.inc:151
+msgid "Faldende"
+msgstr ""
+
+#: vih_golf_courses.views_default.inc:152
+msgid "Block"
+msgstr ""
+
+#: vih_golf_courses.views_default.inc:153
+msgid "Content pane"
+msgstr ""
+
+#: vih_golf_courses.views_default.inc:155
+msgid "Navn"
+msgstr ""
+
+#: vih_golf_courses.views_default.inc:156
+msgid "View panes"
+msgstr ""
+
+#: vih_golf_courses.info:0
+msgid "VIH Golf Courses"
+msgstr ""
+
+#: vih_golf_courses.info:0
+msgid "Golf courses for short courses"
+msgstr ""
+
+#: vih_golf_courses.info:0
+msgid "VIH"
+msgstr ""
+
