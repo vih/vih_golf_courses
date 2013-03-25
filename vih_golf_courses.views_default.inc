@@ -83,7 +83,6 @@ function vih_golf_courses_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
-  $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['block_caching'] = '8';
 
   /* Display: Content pane */
@@ -91,7 +90,6 @@ function vih_golf_courses_views_default_views() {
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'Golfbaner';
   $handler->display->display_options['defaults']['css_class'] = FALSE;
-  $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'table';
   $handler->display->display_options['style_options']['columns'] = array(
