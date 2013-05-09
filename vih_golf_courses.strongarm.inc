@@ -92,7 +92,7 @@ function vih_golf_courses_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_preview_vih_golf_courses';
-  $strongarm->value = '1';
+  $strongarm->value = '0';
   $export['node_preview_vih_golf_courses'] = $strongarm;
 
   $strongarm = new stdClass();
