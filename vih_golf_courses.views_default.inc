@@ -141,6 +141,8 @@ function vih_golf_courses_views_default_views() {
   $handler->display->display_options['fields']['edit_node']['field'] = 'edit_node';
   $handler->display->display_options['fields']['edit_node']['label'] = '';
   $handler->display->display_options['fields']['edit_node']['element_label_colon'] = FALSE;
+  $handler->display->display_options['pane_category']['name'] = 'VIH Admin';
+  $handler->display->display_options['pane_category']['weight'] = '0';
   $translatables['vih_golf_courses'] = array(
     t('Master'),
     t('mere'),
@@ -153,7 +155,7 @@ function vih_golf_courses_views_default_views() {
     t('Content pane'),
     t('Golfbaner'),
     t('Navn'),
-    t('View panes'),
+    t('VIH Admin'),
   );
   $export['vih_golf_courses'] = $view;
 
