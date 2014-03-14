@@ -5,6 +5,38 @@
  */
 
 /**
+ * Implements hook_commerce_line_item_default_types().
+ */
+function vih_golf_courses_commerce_line_item_default_types() {
+  $items = array(
+    'vih_short_course_golf' => array(
+      'name' => 'VIH Short Course Golf',
+      'description' => 'A customizable product line item type.',
+      'product' => TRUE,
+      'add_form_submit_value' => 'Tilføj vare',
+      'base' => 'commerce_product_line_item',
+    ),
+  );
+  return $items;
+}
+
+/**
+ * Implements hook_commerce_product_default_types().
+ */
+function vih_golf_courses_commerce_product_default_types() {
+  $items = array(
+    'vih_shourt_course_golf' => array(
+      'type' => 'vih_shourt_course_golf',
+      'name' => 'VIH Short Course Golf',
+      'description' => '',
+      'help' => '',
+      'revision' => 1,
+    ),
+  );
+  return $items;
+}
+
+/**
  * Implements hook_ctools_plugin_api().
  */
 function vih_golf_courses_ctools_plugin_api($module = NULL, $api = NULL) {
@@ -31,6 +63,14 @@ function vih_golf_courses_node_info() {
       'description' => t('Bruges til at beskrive golfbanerne til de korte kurser.'),
       'has_title' => '1',
       'title_label' => t('Titel'),
+      'help' => '',
+    ),
+    'vih_short_course_golf' => array(
+      'name' => t('Short Course Golf'),
+      'base' => 'node_content',
+      'description' => t('Used for the golf courses.'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
       'help' => '',
     ),
   );
