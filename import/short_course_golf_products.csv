@@ -1,0 +1,4 @@
+Title,SKU,Price,Stock status,Stock quantity,Room
+Golf course,GOLF-COURSE,4000.00,1,50,single
+Golf course sold out,GOLF-COURSE-SOLDOUT,4000.00,1,0,single
+Golf course expired,GOLF-COURSE-EXPIRED,4000.00,1,50,single

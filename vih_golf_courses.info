@@ -25,6 +25,7 @@ dependencies[] = views_content
 dependencies[] = vih_core
 dependencies[] = vih_short_course
 dependencies[] = vih_short_course_commerce
+dependencies[] = vih_commerce
 datestamp = 1346221374
 features[commerce_line_item_type][] = vih_short_course_golf
 features[commerce_product_type][] = vih_shourt_course_golf
@@ -97,3 +98,5 @@ features_exclude[dependencies][commerce_price] = commerce_price
 features_exclude[dependencies][commerce_product_reference] = commerce_product_reference
 features_exclude[dependencies][list] = list
 features_exclude[dependencies][number] = number
+
+files[] = vih_golf_courses.migrate.inc

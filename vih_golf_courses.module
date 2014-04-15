@@ -5,3 +5,18 @@
  */
 
 include_once('vih_golf_courses.features.inc');
+
+/**
+ * Implements hook_migrate_api().
+ */
+function vih_golf_courses_migrate_api() {
+  $api = array(
+    'api' => 2,
+    'migrations' => array(
+      'VIHShortCourseGolfProduct' => array('class_name' => 'VIHShortCourseGolfProduct'),
+      'VIHShortCourseGolfNode' => array('class_name' => 'VIHShortCourseGolfNode'),
+    ),
+  );
+
+  return $api;
+}
