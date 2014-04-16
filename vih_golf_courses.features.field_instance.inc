@@ -1214,7 +1214,7 @@ function vih_golf_courses_field_default_field_instances() {
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
-        'weight' => 4,
+        'weight' => 5,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1267,7 +1267,7 @@ function vih_golf_courses_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'inline',
         'module' => 'date',
         'settings' => array(
           'format_type' => 'long',
@@ -1336,7 +1336,7 @@ function vih_golf_courses_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 8,
+        'weight' => 9,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1387,7 +1387,7 @@ function vih_golf_courses_field_default_field_instances() {
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
-        'weight' => 6,
+        'weight' => 3,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1441,7 +1441,7 @@ function vih_golf_courses_field_default_field_instances() {
           'show_single_product_attributes' => FALSE,
         ),
         'type' => 'commerce_cart_add_to_cart_form',
-        'weight' => 5,
+        'weight' => 7,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1586,7 +1586,7 @@ function vih_golf_courses_field_default_field_instances() {
           'link' => FALSE,
         ),
         'type' => 'entityreference_label',
-        'weight' => 9,
+        'weight' => 6,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1640,10 +1640,17 @@ function vih_golf_courses_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'file',
-        'settings' => array(),
-        'type' => 'file_default',
-        'weight' => 3,
+        'module' => 'pdf_reader',
+        'settings' => array(
+          'colorbox' => 0,
+          'colorbox_link_text' => '',
+          'download' => 1,
+          'pdf_height' => 780,
+          'pdf_width' => 600,
+          'renderer' => 'google',
+        ),
+        'type' => 'pdf_reader_file',
+        'weight' => 4,
       ),
       'featured' => array(
         'label' => 'above',
