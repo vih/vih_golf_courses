@@ -13,6 +13,7 @@ function vih_golf_courses_migrate_api() {
   $api = array(
     'api' => 2,
     'migrations' => array(
+      'VIHGolfCourseNode' => array('class_name' => 'VIHGolfCourseNode'),
       'VIHShortCourseGolfProduct' => array('class_name' => 'VIHShortCourseGolfProduct'),
       'VIHShortCourseGolfNode' => array('class_name' => 'VIHShortCourseGolfNode'),
     ),
