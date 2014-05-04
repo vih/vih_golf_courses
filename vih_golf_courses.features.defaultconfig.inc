@@ -35,8 +35,8 @@ function vih_golf_courses_defaultconfig_user_default_permissions() {
     'name' => 'create vih_golf_courses content',
     'roles' => array(
       'administrator' => 'administrator',
-      'kontor' => 'kontor',
-      'lærer' => 'lærer',
+      'office' => 'office',
+      'teacher' => 'teacher',
     ),
     'module' => 'node',
   );
@@ -46,8 +46,8 @@ function vih_golf_courses_defaultconfig_user_default_permissions() {
     'name' => 'create vih_short_course_golf content',
     'roles' => array(
       'administrator' => 'administrator',
-      'kontor' => 'kontor',
-      'lærer' => 'lærer',
+      'office' => 'office',
+      'teacher' => 'teacher',
     ),
     'module' => 'node',
   );
@@ -57,7 +57,7 @@ function vih_golf_courses_defaultconfig_user_default_permissions() {
     'name' => 'delete any vih_golf_courses content',
     'roles' => array(
       'administrator' => 'administrator',
-      'kontor' => 'kontor',
+      'office' => 'office',
     ),
     'module' => 'node',
   );
@@ -67,8 +67,8 @@ function vih_golf_courses_defaultconfig_user_default_permissions() {
     'name' => 'delete any vih_short_course_golf content',
     'roles' => array(
       'administrator' => 'administrator',
-      'kontor' => 'kontor',
-      'lærer' => 'lærer',
+      'office' => 'office',
+      'teacher' => 'teacher',
     ),
     'module' => 'node',
   );
@@ -78,8 +78,8 @@ function vih_golf_courses_defaultconfig_user_default_permissions() {
     'name' => 'delete own vih_golf_courses content',
     'roles' => array(
       'administrator' => 'administrator',
-      'kontor' => 'kontor',
-      'lærer' => 'lærer',
+      'office' => 'office',
+      'teacher' => 'teacher',
     ),
     'module' => 'node',
   );
@@ -89,7 +89,7 @@ function vih_golf_courses_defaultconfig_user_default_permissions() {
     'name' => 'delete own vih_short_course_golf content',
     'roles' => array(
       'administrator' => 'administrator',
-      'kontor' => 'kontor',
+      'office' => 'office',
     ),
     'module' => 'node',
   );
@@ -108,8 +108,8 @@ function vih_golf_courses_defaultconfig_user_default_permissions() {
     'name' => 'edit any vih_golf_courses content',
     'roles' => array(
       'administrator' => 'administrator',
-      'kontor' => 'kontor',
-      'lærer' => 'lærer',
+      'office' => 'office',
+      'teacher' => 'teacher',
     ),
     'module' => 'node',
   );
@@ -119,8 +119,8 @@ function vih_golf_courses_defaultconfig_user_default_permissions() {
     'name' => 'edit any vih_short_course_golf content',
     'roles' => array(
       'administrator' => 'administrator',
-      'kontor' => 'kontor',
-      'lærer' => 'lærer',
+      'office' => 'office',
+      'teacher' => 'teacher',
     ),
     'module' => 'node',
   );
@@ -139,8 +139,8 @@ function vih_golf_courses_defaultconfig_user_default_permissions() {
     'name' => 'edit own vih_golf_courses content',
     'roles' => array(
       'administrator' => 'administrator',
-      'kontor' => 'kontor',
-      'lærer' => 'lærer',
+      'office' => 'office',
+      'teacher' => 'teacher',
     ),
     'module' => 'node',
   );
@@ -150,8 +150,8 @@ function vih_golf_courses_defaultconfig_user_default_permissions() {
     'name' => 'edit own vih_short_course_golf content',
     'roles' => array(
       'administrator' => 'administrator',
-      'kontor' => 'kontor',
-      'lærer' => 'lærer',
+      'office' => 'office',
+      'teacher' => 'teacher',
     ),
     'module' => 'node',
   );
