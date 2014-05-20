@@ -114,13 +114,6 @@ class VIHShortCourseGolfNode extends VIHMigration {
     $this->addFieldMapping('field_featured_image:source_dir')
       ->defaultValue(drupal_get_path('module', 'vih_golf_courses') . '/import/images');
 
-    // Featured image
-    $this->addFieldMapping('field_picture', 'featured_image');
-    $this->addFieldMapping('field_picture:file_replace')
-      ->defaultValue(FILE_EXISTS_REPLACE);
-    $this->addFieldMapping('field_picture:source_dir')
-      ->defaultValue(drupal_get_path('module', 'vih_golf_courses') . '/import/images');
-
     // Connect the products
     $this->addFieldMapping('field_golf_product', 'skus');
   }
@@ -201,10 +194,10 @@ class VIHGolfCourseNode extends VIHMigration {
       ->defaultValue(drupal_get_path('module', 'vih_golf_courses') . '/import/images');
 
     // Featured image
-    $this->addFieldMapping('field_picture', 'featured_image');
-    $this->addFieldMapping('field_picture:file_replace')
+    $this->addFieldMapping('field_featured_image', 'featured_image');
+    $this->addFieldMapping('field_featured_image:file_replace')
       ->defaultValue(FILE_EXISTS_REPLACE);
-    $this->addFieldMapping('field_picture:source_dir')
+    $this->addFieldMapping('field_featured_image:source_dir')
       ->defaultValue(drupal_get_path('module', 'vih_golf_courses') . '/import/images');
 
     $this->addFieldMapping('field_more_info', 'website_url');

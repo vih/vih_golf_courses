@@ -45,13 +45,13 @@ function vih_golf_courses_views_default_views() {
   $handler->display->display_options['style_plugin'] = 'grid';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Field: Field: Billede */
-  $handler->display->display_options['fields']['field_picture']['id'] = 'field_picture';
-  $handler->display->display_options['fields']['field_picture']['table'] = 'field_data_field_picture';
-  $handler->display->display_options['fields']['field_picture']['field'] = 'field_picture';
-  $handler->display->display_options['fields']['field_picture']['label'] = '';
-  $handler->display->display_options['fields']['field_picture']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_picture']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_picture']['settings'] = array(
+  $handler->display->display_options['fields']['field_featured_image']['id'] = 'field_featured_image';
+  $handler->display->display_options['fields']['field_featured_image']['table'] = 'field_data_field_featured_image';
+  $handler->display->display_options['fields']['field_featured_image']['field'] = 'field_featured_image';
+  $handler->display->display_options['fields']['field_featured_image']['label'] = '';
+  $handler->display->display_options['fields']['field_featured_image']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_featured_image']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_featured_image']['settings'] = array(
     'image_style' => 'thumbnail_tall_employee',
     'image_link' => 'content',
   );
@@ -93,12 +93,12 @@ function vih_golf_courses_views_default_views() {
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'table';
   $handler->display->display_options['style_options']['columns'] = array(
-    'field_picture' => 'field_picture',
+    'field_featured_image' => 'field_featured_image',
     'title' => 'title',
   );
   $handler->display->display_options['style_options']['default'] = '-1';
   $handler->display->display_options['style_options']['info'] = array(
-    'field_picture' => array(
+    'field_featured_image' => array(
       'sortable' => 0,
       'default_sort_order' => 'asc',
       'align' => '',
@@ -118,13 +118,13 @@ function vih_golf_courses_views_default_views() {
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Field: Billede */
-  $handler->display->display_options['fields']['field_picture']['id'] = 'field_picture';
-  $handler->display->display_options['fields']['field_picture']['table'] = 'field_data_field_picture';
-  $handler->display->display_options['fields']['field_picture']['field'] = 'field_picture';
-  $handler->display->display_options['fields']['field_picture']['label'] = '';
-  $handler->display->display_options['fields']['field_picture']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_picture']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_picture']['settings'] = array(
+  $handler->display->display_options['fields']['field_featured_image']['id'] = 'field_featured_image';
+  $handler->display->display_options['fields']['field_featured_image']['table'] = 'field_data_field_featured_image';
+  $handler->display->display_options['fields']['field_featured_image']['field'] = 'field_featured_image';
+  $handler->display->display_options['fields']['field_featured_image']['label'] = '';
+  $handler->display->display_options['fields']['field_featured_image']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_featured_image']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_featured_image']['settings'] = array(
     'image_style' => 'profile_small',
     'image_link' => 'content',
   );

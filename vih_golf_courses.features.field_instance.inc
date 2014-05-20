@@ -1016,8 +1016,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-vih_golf_courses-field_picture'
-  $field_instances['node-vih_golf_courses-field_picture'] = array(
+  // Exported field_instance: 'node-vih_golf_courses-field_featured_image'
+  $field_instances['node-vih_golf_courses-field_featured_image'] = array(
     'bundle' => 'vih_golf_courses',
     'deleted' => 0,
     'description' => '',
@@ -1046,7 +1046,7 @@ function vih_golf_courses_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_picture',
+    'field_name' => 'field_featured_image',
     'label' => 'Billede',
     'required' => 0,
     'settings' => array(
@@ -1526,8 +1526,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-vih_short_course_golf-field_picture'
-  $field_instances['node-vih_short_course_golf-field_picture'] = array(
+  // Exported field_instance: 'node-vih_short_course_golf-field_featured_image'
+  $field_instances['node-vih_short_course_golf-field_featured_image'] = array(
     'bundle' => 'vih_short_course_golf',
     'deleted' => 0,
     'description' => '',
@@ -1562,7 +1562,7 @@ function vih_golf_courses_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_picture',
+    'field_name' => 'field_featured_image',
     'label' => 'Billede',
     'required' => 0,
     'settings' => array(
