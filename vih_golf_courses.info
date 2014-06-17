@@ -84,6 +84,7 @@ features[field_instance][] = node-vih_short_course_golf-field_short_course_lectu
 features[field_instance][] = node-vih_short_course_golf-field_vih_schedule
 features[node][] = vih_golf_courses
 features[node][] = vih_short_course_golf
+features[page_manager_handlers][] = node_view_panel_context_5
 features[variable][] = field_bundle_settings_node__vih_golf_courses
 features[variable][] = field_bundle_settings_node__vih_short_course_golf
 features[variable][] = language_content_type_vih_golf_courses
