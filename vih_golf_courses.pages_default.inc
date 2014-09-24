@@ -267,6 +267,41 @@ function vih_golf_courses_default_page_manager_handlers() {
     $display->content['new-2d56f948-6aaa-43dc-8e76-ccb211f90612'] = $pane;
     $display->panels['contentmain'][2] = 'new-2d56f948-6aaa-43dc-8e76-ccb211f90612';
     $pane = new stdClass();
+    $pane->pid = 'new-0bff9726-e8d0-4861-a578-529851f6d126';
+    $pane->panel = 'contentmain';
+    $pane->type = 'entity_field';
+    $pane->subtype = 'node:field_pictures';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'label' => 'hidden',
+      'formatter' => 'colorbox',
+      'delta_limit' => '0',
+      'delta_offset' => '0',
+      'delta_reversed' => 0,
+      'formatter_settings' => array(
+        'colorbox_node_style' => 'vih_quarter_square',
+        'colorbox_node_style_first' => '',
+        'colorbox_image_style' => 'panopoly_image_full',
+        'colorbox_gallery' => 'post',
+        'colorbox_gallery_custom' => '',
+        'colorbox_caption' => 'auto',
+        'colorbox_caption_custom' => '',
+      ),
+      'context' => array(),
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array();
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 3;
+    $pane->locks = array();
+    $pane->uuid = '0bff9726-e8d0-4861-a578-529851f6d126';
+    $display->content['new-0bff9726-e8d0-4861-a578-529851f6d126'] = $pane;
+    $display->panels['contentmain'][3] = 'new-0bff9726-e8d0-4861-a578-529851f6d126';
+    $pane = new stdClass();
     $pane->pid = 'new-0f833765-f365-4b75-9cf4-4180b5f595cc';
     $pane->panel = 'contentmain';
     $pane->type = 'entity_field';
@@ -297,11 +332,11 @@ function vih_golf_courses_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 3;
+    $pane->position = 4;
     $pane->locks = array();
     $pane->uuid = '0f833765-f365-4b75-9cf4-4180b5f595cc';
     $display->content['new-0f833765-f365-4b75-9cf4-4180b5f595cc'] = $pane;
-    $display->panels['contentmain'][3] = 'new-0f833765-f365-4b75-9cf4-4180b5f595cc';
+    $display->panels['contentmain'][4] = 'new-0f833765-f365-4b75-9cf4-4180b5f595cc';
     $pane = new stdClass();
     $pane->pid = 'new-ec8d6423-0b0f-41aa-baf5-1fbffe033b21';
     $pane->panel = 'contentmain';
@@ -316,11 +351,11 @@ function vih_golf_courses_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 4;
+    $pane->position = 5;
     $pane->locks = array();
     $pane->uuid = 'ec8d6423-0b0f-41aa-baf5-1fbffe033b21';
     $display->content['new-ec8d6423-0b0f-41aa-baf5-1fbffe033b21'] = $pane;
-    $display->panels['contentmain'][4] = 'new-ec8d6423-0b0f-41aa-baf5-1fbffe033b21';
+    $display->panels['contentmain'][5] = 'new-ec8d6423-0b0f-41aa-baf5-1fbffe033b21';
     $pane = new stdClass();
     $pane->pid = 'new-fc392fbe-2ba9-447a-ae0d-d89a08f0f59a';
     $pane->panel = 'contentmain';
@@ -346,11 +381,11 @@ function vih_golf_courses_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 5;
+    $pane->position = 6;
     $pane->locks = array();
     $pane->uuid = 'fc392fbe-2ba9-447a-ae0d-d89a08f0f59a';
     $display->content['new-fc392fbe-2ba9-447a-ae0d-d89a08f0f59a'] = $pane;
-    $display->panels['contentmain'][5] = 'new-fc392fbe-2ba9-447a-ae0d-d89a08f0f59a';
+    $display->panels['contentmain'][6] = 'new-fc392fbe-2ba9-447a-ae0d-d89a08f0f59a';
     $pane = new stdClass();
     $pane->pid = 'new-0c32f818-4082-43fd-835b-930f87ec7251';
     $pane->panel = 'contentmain';
@@ -395,11 +430,11 @@ function vih_golf_courses_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 6;
+    $pane->position = 7;
     $pane->locks = array();
     $pane->uuid = '0c32f818-4082-43fd-835b-930f87ec7251';
     $display->content['new-0c32f818-4082-43fd-835b-930f87ec7251'] = $pane;
-    $display->panels['contentmain'][6] = 'new-0c32f818-4082-43fd-835b-930f87ec7251';
+    $display->panels['contentmain'][7] = 'new-0c32f818-4082-43fd-835b-930f87ec7251';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
