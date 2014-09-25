@@ -5,6 +5,7 @@ package = VIH
 version = 7.x-0.6
 project = vih_golf_courses
 dependencies[] = commerce_cart
+dependencies[] = commerce_price_savings_formatter
 dependencies[] = ctools
 dependencies[] = date
 dependencies[] = entityreference

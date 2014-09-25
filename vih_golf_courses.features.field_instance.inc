@@ -586,12 +586,18 @@ function vih_golf_courses_field_default_field_instances() {
         'weight' => 0,
       ),
       'default' => array(
-        'label' => 'above',
-        'module' => 'commerce_price',
+        'label' => 'hidden',
+        'module' => 'commerce_price_savings_formatter',
         'settings' => array(
           'calculation' => 'calculated_sell_price',
+          'prices' => array(
+            0 => 'list',
+            1 => 'price',
+          ),
+          'savings' => 'percentage',
+          'show_labels' => FALSE,
         ),
-        'type' => 'commerce_price_formatted_amount',
+        'type' => 'commerce_price_savings_formatter_inline',
         'weight' => 2,
       ),
       'full' => array(
