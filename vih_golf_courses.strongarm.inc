@@ -224,6 +224,7 @@ function vih_golf_courses_strongarm() {
   $strongarm->name = 'node_options_vih_golf_courses';
   $strongarm->value = array(
     0 => 'status',
+    1 => 'revision',
   );
   $export['node_options_vih_golf_courses'] = $strongarm;
 
@@ -233,7 +234,7 @@ function vih_golf_courses_strongarm() {
   $strongarm->name = 'node_options_vih_short_course_golf';
   $strongarm->value = array(
     0 => 'status',
-    1 => 'promote',
+    1 => 'revision',
   );
   $export['node_options_vih_short_course_golf'] = $strongarm;
 
