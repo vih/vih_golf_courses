@@ -128,16 +128,28 @@ function vih_golf_courses_strongarm() {
             'weight' => '13',
             'visible' => FALSE,
           ),
+          'teaser' => array(
+            'weight' => '6',
+            'visible' => FALSE,
+          ),
         ),
         'product:title' => array(
           'default' => array(
             'weight' => '14',
             'visible' => FALSE,
           ),
+          'teaser' => array(
+            'weight' => '7',
+            'visible' => FALSE,
+          ),
         ),
         'product:commerce_price' => array(
           'default' => array(
             'weight' => '11',
+            'visible' => FALSE,
+          ),
+          'teaser' => array(
+            'weight' => '5',
             'visible' => FALSE,
           ),
         ),
@@ -152,6 +164,10 @@ function vih_golf_courses_strongarm() {
             'weight' => '12',
             'visible' => FALSE,
           ),
+          'teaser' => array(
+            'weight' => '4',
+            'visible' => FALSE,
+          ),
         ),
         'product:field_agegroup' => array(
           'default' => array(
@@ -164,10 +180,18 @@ function vih_golf_courses_strongarm() {
             'weight' => '10',
             'visible' => FALSE,
           ),
+          'teaser' => array(
+            'weight' => '15',
+            'visible' => FALSE,
+          ),
         ),
         'product:commerce_stock' => array(
           'default' => array(
             'weight' => '8',
+            'visible' => FALSE,
+          ),
+          'teaser' => array(
+            'weight' => '3',
             'visible' => FALSE,
           ),
         ),
