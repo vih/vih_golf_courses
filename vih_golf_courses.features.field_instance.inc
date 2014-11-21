@@ -1083,6 +1083,7 @@ function vih_golf_courses_field_default_field_instances() {
     'label' => 'Hjemmeside',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,
