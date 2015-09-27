@@ -53,6 +53,7 @@ features[defaultconfig][] = user_default_permissions:view any commerce_product e
 features[defaultconfig][] = user_default_permissions:view own commerce_product entities of bundle vih_shourt_course_golf
 features[features_api][] = api:2
 features[field_base][] = field_golf_club
+features[field_base][] = field_dgu_medlemsnummer
 features[field_base][] = field_golf_courses
 features[field_base][] = field_golf_handicap
 features[field_instance][] = commerce_line_item-vih_short_course_golf-commerce_display_path
