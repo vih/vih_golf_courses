@@ -65,17 +65,17 @@ function vih_golf_courses_views_api($module = NULL, $api = NULL) {
 function vih_golf_courses_node_info() {
   $items = array(
     'vih_golf_courses' => array(
-      'name' => t('Golfbaner'),
+      'name' => t('Golf field'),
       'base' => 'node_content',
-      'description' => t('Bruges til at beskrive golfbanerne til de korte kurser.'),
+      'description' => t('Use <em>golf field</em> to describe the golf fields you are going to play on the golf courses.'),
       'has_title' => '1',
-      'title_label' => t('Titel'),
+      'title_label' => t('Title'),
       'help' => '',
     ),
     'vih_short_course_golf' => array(
       'name' => t('Short Course Golf'),
       'base' => 'node_content',
-      'description' => t('Used for the golf courses.'),
+      'description' => t('Use <em>short golf course</em> when you need information also need information about golf handicap and clubs.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
