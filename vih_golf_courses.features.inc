@@ -65,7 +65,7 @@ function vih_golf_courses_views_api($module = NULL, $api = NULL) {
 function vih_golf_courses_node_info() {
   $items = array(
     'vih_golf_courses' => array(
-      'name' => t('Golf field'),
+      'name' => t('Short Course Golf Field'),
       'base' => 'node_content',
       'description' => t('Use <em>golf field</em> to describe the golf fields you are going to play on the golf courses.'),
       'has_title' => '1',
