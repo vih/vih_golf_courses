@@ -1,5 +1,5 @@
 name = VIH Golf Courses
-description = Golf courses for short courses
+description = Handles short golf courses with commerce integration
 core = 7.x
 package = VIH
 version = 7.x-0.6
