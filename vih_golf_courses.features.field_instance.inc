@@ -10,7 +10,8 @@
 function vih_golf_courses_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'commerce_line_item-vih_short_course_golf-commerce_display_path'
+  // Exported field_instance:
+  // 'commerce_line_item-vih_short_course_golf-commerce_display_path'
   $field_instances['commerce_line_item-vih_short_course_golf-commerce_display_path'] = array(
     'bundle' => 'vih_short_course_golf',
     'default_value' => NULL,
@@ -56,7 +57,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_line_item-vih_short_course_golf-commerce_product'
+  // Exported field_instance:
+  // 'commerce_line_item-vih_short_course_golf-commerce_product'
   $field_instances['commerce_line_item-vih_short_course_golf-commerce_product'] = array(
     'bundle' => 'vih_short_course_golf',
     'default_value' => NULL,
@@ -117,7 +119,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_line_item-vih_short_course_golf-commerce_total'
+  // Exported field_instance:
+  // 'commerce_line_item-vih_short_course_golf-commerce_total'
   $field_instances['commerce_line_item-vih_short_course_golf-commerce_total'] = array(
     'bundle' => 'vih_short_course_golf',
     'default_value' => NULL,
@@ -187,7 +190,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_line_item-vih_short_course_golf-commerce_unit_price'
+  // Exported field_instance:
+  // 'commerce_line_item-vih_short_course_golf-commerce_unit_price'
   $field_instances['commerce_line_item-vih_short_course_golf-commerce_unit_price'] = array(
     'bundle' => 'vih_short_course_golf',
     'default_value' => NULL,
@@ -257,7 +261,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_line_item-vih_short_course_golf-field_cpr_nummer'
+  // Exported field_instance:
+  // 'commerce_line_item-vih_short_course_golf-field_cpr_nummer'
   $field_instances['commerce_line_item-vih_short_course_golf-field_cpr_nummer'] = array(
     'bundle' => 'vih_short_course_golf',
     'commerce_cart_settings' => array(
@@ -342,7 +347,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_line_item-vih_short_course_golf-field_dgu_medlemsnummer'
+  // Exported field_instance:
+  // 'commerce_line_item-vih_short_course_golf-field_dgu_medlemsnummer'
   $field_instances['commerce_line_item-vih_short_course_golf-field_dgu_medlemsnummer'] = array(
     'bundle' => 'vih_short_course_golf',
     'commerce_cart_settings' => array(
@@ -385,7 +391,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_line_item-vih_short_course_golf-field_golf_club'
+  // Exported field_instance:
+  // 'commerce_line_item-vih_short_course_golf-field_golf_club'
   $field_instances['commerce_line_item-vih_short_course_golf-field_golf_club'] = array(
     'bundle' => 'vih_short_course_golf',
     'commerce_cart_settings' => array(
@@ -428,7 +435,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_line_item-vih_short_course_golf-field_golf_handicap'
+  // Exported field_instance:
+  // 'commerce_line_item-vih_short_course_golf-field_golf_handicap'
   $field_instances['commerce_line_item-vih_short_course_golf-field_golf_handicap'] = array(
     'bundle' => 'vih_short_course_golf',
     'commerce_cart_settings' => array(
@@ -477,7 +485,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_line_item-vih_short_course_golf-field_registrant_name'
+  // Exported field_instance:
+  // 'commerce_line_item-vih_short_course_golf-field_registrant_name'
   $field_instances['commerce_line_item-vih_short_course_golf-field_registrant_name'] = array(
     'bundle' => 'vih_short_course_golf',
     'commerce_cart_settings' => array(
@@ -520,7 +529,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_line_item-vih_short_course_golf-field_roommate'
+  // Exported field_instance:
+  // 'commerce_line_item-vih_short_course_golf-field_roommate'
   $field_instances['commerce_line_item-vih_short_course_golf-field_roommate'] = array(
     'bundle' => 'vih_short_course_golf',
     'commerce_cart_settings' => array(
@@ -563,7 +573,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-vih_shourt_course_golf-commerce_price'
+  // Exported field_instance:
+  // 'commerce_product-vih_shourt_course_golf-commerce_price'
   $field_instances['commerce_product-vih_shourt_course_golf-commerce_price'] = array(
     'bundle' => 'vih_shourt_course_golf',
     'default_value' => NULL,
@@ -699,7 +710,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-vih_shourt_course_golf-commerce_stock'
+  // Exported field_instance:
+  // 'commerce_product-vih_shourt_course_golf-commerce_stock'
   $field_instances['commerce_product-vih_shourt_course_golf-commerce_stock'] = array(
     'bundle' => 'vih_shourt_course_golf',
     'default_value' => array(
@@ -766,7 +778,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'commerce_product-vih_shourt_course_golf-field_room'
+  // Exported field_instance:
+  // 'commerce_product-vih_shourt_course_golf-field_room'
   $field_instances['commerce_product-vih_shourt_course_golf-field_room'] = array(
     'bundle' => 'vih_shourt_course_golf',
     'commerce_cart_settings' => array(
@@ -1096,6 +1109,7 @@ function vih_golf_courses_field_default_field_instances() {
       ),
       'enable_tokens' => 1,
       'title' => 'optional',
+      'title_label_use_field_label' => FALSE,
       'title_maxlength' => 128,
       'title_value' => '',
       'url' => 0,
@@ -1318,6 +1332,7 @@ function vih_golf_courses_field_default_field_instances() {
           'multiple_from' => '',
           'multiple_number' => '',
           'multiple_to' => '',
+          'show_remaining_days' => FALSE,
         ),
         'type' => 'date_default',
         'weight' => 2,
@@ -1343,6 +1358,7 @@ function vih_golf_courses_field_default_field_instances() {
           'multiple_from' => '',
           'multiple_number' => '',
           'multiple_to' => '',
+          'show_remaining_days' => FALSE,
         ),
         'type' => 'date_default',
         'weight' => 1,
@@ -1730,7 +1746,8 @@ function vih_golf_courses_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-vih_short_course_golf-field_short_course_lecture'
+  // Exported field_instance:
+  // 'node-vih_short_course_golf-field_short_course_lecture'
   $field_instances['node-vih_short_course_golf-field_short_course_lecture'] = array(
     'bundle' => 'vih_short_course_golf',
     'default_value' => NULL,
